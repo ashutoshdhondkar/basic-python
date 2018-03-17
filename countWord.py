@@ -4,7 +4,7 @@
 def countWord(text,word):
     l=[]
     l=text.split(' ')
-    return l.count(word)
+    return l.count(word)    
 
 sentence=input("Enter a text: ")
 word=input("enter a word that is to be counted: ")
