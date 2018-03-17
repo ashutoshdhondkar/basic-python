@@ -1,3 +1,4 @@
+# function that prints factorial of all numbers specified by user
 def fact(n):
     if n==1:
         return 1
@@ -10,7 +11,8 @@ def factoflist(a,b):
     return d
 
 
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
 l={}
-l=factoflist(2,6)
+l=factoflist(a,b)
 print(l)
-# same thing bt put it into dictonary
