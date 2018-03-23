@@ -25,3 +25,20 @@ else:   #if num2 is  multidigit number
 
     print("-"*8)
     print(addition)
+
+    
+'''
+output:
+
+Enter num1 : 123
+Enter num2 : 321
+123
+* 321
+--------
+   123
+  2460
+ 36900
+--------
+39483
+
+'''
